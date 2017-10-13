@@ -1,0 +1,22 @@
+{
+  "name": "httpguide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maoruibin001/httpGuide.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maoruibin001/httpGuide/issues"
+  },
+  "homepage": "https://github.com/maoruibin001/httpGuide#readme",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}

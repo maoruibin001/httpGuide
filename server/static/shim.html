@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>i am a shim</h1>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
+<script>
+  var height = location.href.split('?')[1].split('=')[1];
+
+console.log('height', height);
+  var src = $('#ifr', parent.parent.document).css({
+    'height': height,
+    'border': '1px solid red'
+  });
+  //    $('#ifr', parent.parent.document).attr('src', src + '?location=' + parent.parent.location.href);
+
+</script>
+</body>
+</html>

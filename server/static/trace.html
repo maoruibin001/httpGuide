@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>hello world</h1>
+<script src="/hello" > </script>
+<button>trace request</button>
+<iframe src="http://10.170.8.102:8088/index2.html?tt=k22" id="ifr" frameborder="0"></iframe>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
+<script>
+    $('button').click(function() {
+      $.ajax({
+        url: 'http://localhost:8089',
+        type: 'get',
+        success: function(responseData) {
+          console.log(responseData);
+        },
+        error: function(err) {
+          console.log(err);
+        }
+      });
+    });
+</script>
+</body>
+</html>
